@@ -1,2 +1,5 @@
 @layer components {
+    .primaryButton {
+        @apply pt-2 pb-2 pl-5 pr-5 rounded-full font-roboto cursor-pointer font-medium;
+    }
 }

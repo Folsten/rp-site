@@ -24,6 +24,10 @@
     @apply bg-secondary;
   }
 
+  .primaryButton_purple {
+    background-color: #635bff;
+  }
+
   /* Media Queries */
 
   @media screen and (min-width: 400px) {}
