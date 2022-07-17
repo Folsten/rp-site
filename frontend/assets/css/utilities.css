@@ -28,6 +28,22 @@
     background-color: #635bff;
   }
 
+  .primaryButton_orb {
+    background-color: #D74156;
+  }
+
+  .primaryButton_masterwork {
+    background-color: #E7C24D;
+  }
+
+  .primaryButton_champion {
+    background-color: #12B9D1;
+  }
+
+  .primaryButton_skin {
+    background-color: #0F4050;
+  }
+
   /* Media Queries */
 
   @media screen and (min-width: 400px) {}
