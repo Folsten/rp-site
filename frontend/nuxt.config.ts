@@ -3,9 +3,13 @@ import { defineNuxtConfig } from 'nuxt'
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
 	modules: ['@nuxtjs/tailwindcss'],
-	script: [{
-		src: './modernizr-custom.js',
-		body: true
-	},
+	script: [
+		{
+			src: './modernizr-custom.js',
+			body: true
+		},
+	],
+	css: [
+		'@fortawesome/fontawesome-svg-core/styles.css'
 	],
 })
